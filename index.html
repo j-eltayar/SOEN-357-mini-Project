@@ -2,15 +2,82 @@
     <link rel="stylesheet"href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mySlides {display:none;}
+    </style>
+    <script src="script.js"></script>
 </head>
 <body>
-    <div id="page">
-        <h1>The Problem</h1>
-            <p>Given the unfortunate reality that is the post-covid world that we currently live in, the average person in North America has had basically no choice but to significantly increase their usage of the internet. Unfortunately, mental and physical health has been a problem in North American society for decades, and obligating people to spend so much more time isolated, in a chair, and in front of a screen is only going to make it a lot worse. It has now become more important than ever that a tool that mitigates the prevalence and severity of the issues associated with increases in screen time be created and offered to the public. </p>
-        <h1>Research</h1>
-        <h1>Analysis</h1>
-        <h1>Initial Design</h1>
-        <h1>Final Design</h1>
-    </div>
+        <div id="navbar">
+            <a href="javascript:void(0)">The Problem</a>
+            <a href="javascript:void(0)">Research</a>
+            <a href="javascript:void(0)">Analysis</a>
+            <a href="javascript:void(0)">Design Process</a>
+            <a href="javascript:void(0)">Final Design</a>
+            <a href="javascript:void(0)">Conclusion</a>
+        </div>
+        <div class="content">
+            <h1>The Problem</h1>
+                <p>Given the unfortunate reality that is the covid stricken world that we currently live in, the average person in North America has had basically no choice but to significantly increase their usage of the internet. Unfortunately, mental and physical health has been a problem in North American society for decades, and obligating people to spend so much more time isolated, in a chair, and in front of a screen is only going to make it a lot worse. It has now become more important than ever that a tool that mitigates the prevalence and severity of the issues associated with increases in screen time be created and offered to the public. </p>
+            <h1>Research</h1>
+            <h2>Current Affairs</h2>
+            <h2>Surveys</h2>
+            <h1>Analysis</h1>
+            <h2>Personas</h2>
+                <div class="w3-content w3-display-container">
+                    <img class="mySlides" src="assets/stock1.jpeg" style="width: 100%">
+                    <img class="mySlides" src="assets/stock2.jpeg" style="width: 100%">
+                    <img class="mySlides" src="assets/stock3.jpeg" style="width: 100%">
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094></button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095></button>
+                </div>
+            <h2>Journey Maps</h2>
+                <p>Click the image!</p>
+                <img id="myImg" src="assets/stock3.jpeg" alt="Snow" style="width:100%;max-width:300px">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            <h1>Initial Design</h1>
+            <h2>User Flow </h2>
+            <h2>Sketches</h2>
+            <h2>Wireframes</h2>
+            <h2>Palette</h2>
+            <h2>Typography</h2>
+            <h2>Logo + Other Design Decisions</h2>
+            <h1>Final Design</h1>
+        </div>
+   <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+   </script>
 </body>
 
