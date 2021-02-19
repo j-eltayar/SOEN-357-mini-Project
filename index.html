@@ -25,16 +25,23 @@
             <h2>Surveys</h2>
             <h1>Analysis</h1>
             <h2>Personas</h2>
-                <div class="w3-content w3-display-container">
-                    <img class="mySlides" src="assets/stock1.jpeg" style="width: 100%">
-                    <img class="mySlides" src="assets/stock2.jpeg" style="width: 100%">
-                    <img class="mySlides" src="assets/stock3.jpeg" style="width: 100%">
-                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094></button>
-                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095></button>
-                </div>
+                <table>
+                    <tr>
+                        <th><button class="arrow arrow-left" onclick="plusDivs(-1)"></button></th>
+                        <th><div class="w3-content w3-display-container" style="width: 65%">
+                    <img class="mySlides" src="assets/Persona1.png" style="width: 100%" onclick="modal(this)">
+                    <img class="mySlides" src="assets/Persona2.png" style="width: 100%" onclick="modal(this)">
+                    <img class="mySlides" src="assets/Persona3.png" style="width: 100%" onclick="modal(this)">
+                    <img class="mySlides" src="assets/Persona4.png" style="width: 100%" onclick="modal(this)">
+                </div></th>
+                        <th> <button class="arrow arrow-right" onclick="plusDivs(1)"></button></th>
+                    </tr>
+                </table>
+
             <h2>Journey Maps</h2>
                 <p>Click the image!</p>
-                <img id="myImg" src="assets/stock3.jpeg" alt="Snow" style="width:100%;max-width:300px">
+                <img class="myImg" src="assets/stock3.jpeg" alt="Snow" style="width:100%;max-width:300px" onclick="modal(this)">
+                <img class="myImg" src="assets/stock2.jpeg" alt="Snow" style="width:100%;max-width:300px" onclick="modal(this)">
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
                     <img class="modal-content" id="img01">
@@ -57,27 +64,6 @@
 
         var slideIndex = 1;
         showDivs(slideIndex);
-
-        // Get the modal
-        var modal = document.getElementById("myModal");
-
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById("myImg");
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        img.onclick = function(){
-            modal.style.display = "block";
-            modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
-        }
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
    </script>
 </body>
 
