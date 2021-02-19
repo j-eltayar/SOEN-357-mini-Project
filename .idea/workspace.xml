@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73e0c532-852b-42df-8caf-da8282e856f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/Persona1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Persona2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Persona3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Persona4.png" afterDir="false" />
+    <list default="true" id="73e0c532-852b-42df-8caf-da8282e856f4" name="Default Changelist" comment="Finished: Personas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +69,14 @@
       <updated>1613694060706</updated>
       <workItem from="1613694061900" duration="6951000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished: Personas">
+      <created>1613763523100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613763523100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished: Personas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished: Personas" />
   </component>
 </project>
