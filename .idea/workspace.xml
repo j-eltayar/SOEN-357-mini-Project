@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73e0c532-852b-42df-8caf-da8282e856f4" name="Default Changelist" comment="Added: Palettes">
+    <list default="true" id="73e0c532-852b-42df-8caf-da8282e856f4" name="Default Changelist" comment="Added: Logo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613694060706</updated>
       <workItem from="1613694061900" duration="6951000" />
+      <workItem from="1613832541186" duration="2448000" />
     </task>
     <task id="LOCAL-00001" summary="Finished: Personas">
       <created>1613763523100</created>
@@ -84,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613767963365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added: Logo">
+      <created>1613778779095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613778779095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,10 +109,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished: Personas" />
     <MESSAGE value="Added: Palettes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: Palettes" />
+    <MESSAGE value="Added: Logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: Logo" />
   </component>
 </project>

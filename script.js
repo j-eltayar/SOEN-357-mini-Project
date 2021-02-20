@@ -43,3 +43,4 @@ function modal(image){
         modal.style.display = "none";
     }
 }
+

@@ -10,19 +10,22 @@
 </head>
 <body>
         <div id="navbar">
-            <a href="javascript:void(0)">The Problem</a>
-            <a href="javascript:void(0)">Research</a>
-            <a href="javascript:void(0)">Analysis</a>
-            <a href="javascript:void(0)">Design Process</a>
-            <a href="javascript:void(0)">Final Design</a>
-            <a href="javascript:void(0)">Conclusion</a>
+            <a href="#Introduction-Header" onclick="">Introduction</a>
+            <a href="#Research-Header" onclick="">Research</a>
+            <a href="#Analysis-Header" onclick="">Analysis</a>
+            <a href="#DP-Header" onclick="">Design Process</a>
+            <a href="#FD-Header" onclick="">Final Design</a>
+            <a href="#Conclusion-Header" onclick="">Conclusion</a>
         </div>
         <div class="content">
-            <h1>The Problem</h1>
+            <a class="anchor-offset" id="Introduction-Header"></a>
+            <h1>Introduction</h1>
                 <p>Given the unfortunate reality that is the covid stricken world that we currently live in, the average person in North America has had basically no choice but to significantly increase their usage of the internet. Unfortunately, mental and physical health has been a problem in North American society for decades, and obligating people to spend so much more time isolated, in a chair, and in front of a screen is only going to make it a lot worse. It has now become more important than ever that a tool that mitigates the prevalence and severity of the issues associated with increases in screen time be created and offered to the public. </p>
+            <a class="anchor-offset" id="Research-Header"></a>
             <h1>Research</h1>
             <h2>Current Affairs</h2>
             <h2>Surveys</h2>
+            <a class="anchor-offset" id="Analysis-Header"></a>
             <h1>Analysis</h1>
             <h2>Personas</h2>
                 <table>
@@ -37,7 +40,6 @@
                         <th> <button class="arrow arrow-right" onclick="plusDivs(1)"></button></th>
                     </tr>
                 </table>
-
             <h2>Journey Maps</h2>
                 <p>Click the image!</p>
                 <img class="myImg" src="assets/stock3.jpeg" alt="Snow" style="width:100%;max-width:300px" onclick="modal(this)">
@@ -47,6 +49,7 @@
                     <img class="modal-content" id="img01">
                     <div id="caption"></div>
                 </div>
+            <a class="anchor-offset" id="DP-Header"></a>
             <h1>Design Process</h1>
             <h2>User Flow </h2>
             <h2>Sketches</h2>
@@ -81,7 +84,10 @@
                     </td>
                 </tr>
             </table>
+            <a class="anchor-offset" id="FD-Header"></a>
             <h1>Final Design</h1>
+            <a class="anchor-offset" id="Conclusion-Header"></a>
+            <h1>Conclusion</h1>
         </div>
    <script>
         window.onscroll = function() {myFunction()};
