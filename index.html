@@ -1,7 +1,5 @@
 <head>
     <link rel="stylesheet"href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         .mySlides {display:none;}
@@ -19,41 +17,82 @@
         </div>
         <div class="content">
             <a class="anchor-offset" id="Introduction-Header"></a>
-            <h1>Introduction</h1>
+            <h1 style="font-size: 50px;">Introduction</h1>
                 <p>Given the unfortunate reality that is the covid stricken world that we currently live in, the average person in North America has had basically no choice but to significantly increase their usage of the internet. Unfortunately, mental and physical health has been a problem in North American society for decades, and obligating people to spend so much more time isolated, in a chair, and in front of a screen is only going to make it a lot worse. It has now become more important than ever that a tool that mitigates the prevalence and severity of the issues associated with increases in screen time be created and offered to the public. </p>
             <a class="anchor-offset" id="Research-Header"></a>
-            <h1>Research</h1>
+            <h1 style="font-size: 50px;">Research</h1>
             <h2>Current Affairs</h2>
             <h2>Surveys</h2>
             <a class="anchor-offset" id="Analysis-Header"></a>
-            <h1>Analysis</h1>
-            <h2>Personas</h2>
-                <table>
-                    <tr>
-                        <th><button class="arrow arrow-left" onclick="plusDivs(-1)"></button></th>
-                        <th><div class="w3-content w3-display-container" style="width: 65%">
-                    <img class="mySlides" src="assets/Persona1.png" style="width: 100%" onclick="modal(this)">
-                    <img class="mySlides" src="assets/Persona2.png" style="width: 100%" onclick="modal(this)">
-                    <img class="mySlides" src="assets/Persona3.png" style="width: 100%" onclick="modal(this)">
-                    <img class="mySlides" src="assets/Persona4.png" style="width: 100%" onclick="modal(this)">
-                </div></th>
-                        <th> <button class="arrow arrow-right" onclick="plusDivs(1)"></button></th>
-                    </tr>
-                </table>
-            <h2>Journey Maps</h2>
-                <p>Click the image!</p>
-                <img class="myImg" src="assets/stock3.jpeg" alt="Snow" style="width:100%;max-width:300px" onclick="modal(this)">
-                <img class="myImg" src="assets/stock2.jpeg" alt="Snow" style="width:100%;max-width:300px" onclick="modal(this)">
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
-                    <div id="caption"></div>
-                </div>
+            <h1 style="font-size: 50px;">Analysis</h1>
+            <h2>Personas & Journey Maps</h2>
+            <table>
+                <tr>
+                    <th><button class="arrow arrow-left" onclick="plusDivs(-1); plusDivs1(-1);"></button></th>
+                    <th>
+                        <div class="w3-content w3-display-container" style="width: 65%">
+                            <img class="mySlides" src="assets/Persona1.png" style="width: 100%" onclick="modal(this)">
+                            <img class="mySlides" src="assets/Persona2.png" style="width: 100%" onclick="modal(this)">
+                            <img class="mySlides" src="assets/Persona3.png" style="width: 100%" onclick="modal(this)">
+                            <img class="mySlides" src="assets/Persona4.png" style="width: 100%" onclick="modal(this)">
+                        </div>
+                    </th>
+                    <th> <button class="arrow arrow-right" onclick="plusDivs(1); plusDivs1(1);"></button></th>
+                </tr>
+            </table>
+            <div style="left: 0; right: 0;">
+                <img class="mySlides1" src="assets/JM1.png" style="width: 100%" onclick="modal1(this)">
+                <img class="mySlides1" src="assets/JM2.png" style="width: 100%" onclick="modal1(this)">
+                <img class="mySlides1" src="assets/JM3.png" style="width: 100%" onclick="modal1(this)">
+                <img class="mySlides1" src="assets/JM4.png" style="width: 100%" onclick="modal1(this)">
+            </div>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            <div id="myModal1" class="modal1">
+                <span class="close1">&times;</span>
+                <img class="modal-content1" id="img02">
+                <div id="caption1"></div>
+            </div>
             <a class="anchor-offset" id="DP-Header"></a>
-            <h1>Design Process</h1>
-            <h2>User Flow </h2>
+            <h1 style="font-size: 50px;">Design Process</h1>
             <h2>Sketches</h2>
-            <h2>Wireframes</h2>
+            <h2>Wireframes & User Flow</h2>
+            <img class="myImg" src="assets/UF.png" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 50%;" onclick="modal1(this)">
+            <table style="background-color: #eeeeee; border-radius: 5px; margin-bottom: 80px; margin-top: 80px;">
+                <tr>
+                    <td><img class="myImg" src="assets/wf1.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf2.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf3.png" style="width:75%" onclick = "modal1(this)"></td>
+                </tr>
+                <tr>
+                    <td><img class="myImg" src="assets/wf4.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf5.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf6.png" style="width:75%" onclick = "modal1(this)"></td>
+                </tr>
+                <tr>
+                    <td><img class="myImg" src="assets/wf7.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf8.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf9.png" style="width:75%" onclick = "modal1(this)"></td>
+                </tr>
+                <tr>
+                    <td><img class="myImg" src="assets/wf10.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf11.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf12.png" style="width:75%" onclick = "modal1(this)"></td>
+                </tr>
+                <tr>
+                    <td><img class="myImg" src="assets/wf13.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf14.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf15.png" style="width:75%" onclick = "modal1(this)"></td>
+                </tr>
+                <tr>
+                    <td><img class="myImg" src="assets/wf16.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf17.png" style="width:75%" onclick = "modal1(this)"></td>
+                    <td><img class="myImg" src="assets/wf18.png" style="width:75%" onclick = "modal1(this)"></td>
+                </tr>
+            </table>
             <h2>Palette</h2>
             <h3>Initial Proposals</h3>
             <p>All team members came up with their own proposals for the colour palette. The first can be seen to have soft warm colours where the browns clash with the creamy soft remaining colours giving the feeling of summer and warm temperatures. The second can be seen to have more energetic and deep colours. while they are still are soft in nature they bring more life and bring a more festive attitude. </p>
@@ -69,7 +108,7 @@
                         <p>We chose <strong>Open Sans</strong> as our font for the application due to its frequent use adding some familiarity for the user. It's simplistic and clean look provides a minimalistic yet soft design. It's popularity as one of the most popular Google Fonts also means that it is a web safe font optimized for any use we may need it for.</p>
                     </td>
                     <td>
-                        <img class="myImg" src="assets/Typography.png" alt="Typography" style="object-fit: scale-down; border:1px solid black" onclick="modal(this)">
+                        <img class="myImg" src="assets/Typography.png" alt="Typography" style="object-fit: scale-down; border:1px solid black"; onclick="modal(this)">
                     </td>
                 </tr>
             </table>
@@ -85,9 +124,10 @@
                 </tr>
             </table>
             <a class="anchor-offset" id="FD-Header"></a>
-            <h1>Final Design</h1>
+            <h1 style="font-size: 50px;">Final Design</h1>
             <a class="anchor-offset" id="Conclusion-Header"></a>
-            <h1>Conclusion</h1>
+            <h1 style="font-size: 50px;">Conclusion</h1>
+            <p>Based on a problem many of us are facing today, this UX project provided an interesting and creative way of learning more on the subject. It also gave us the opportunity to create a real practical solution to the problem ourselves. For one of the first times we engaged in the design process towards a real applicable solution to the problem that we face. Taking the theory we've learned in class and in tutorials this project allowed us to truly feel like we can use the knowledge we've observed to create something of use and worth.</p>
         </div>
    <script>
         window.onscroll = function() {myFunction()};
@@ -97,6 +137,9 @@
 
         var slideIndex = 1;
         showDivs(slideIndex);
+
+        var slideIndex1 = 1;
+        showDivs1(slideIndex1);
    </script>
 </body>
 
