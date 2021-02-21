@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73e0c532-852b-42df-8caf-da8282e856f4" name="Default Changelist" comment="Added: assets">
+    <list default="true" id="73e0c532-852b-42df-8caf-da8282e856f4" name="Default Changelist" comment="Added: A lot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ComposerSettings">
     <execution />
@@ -35,6 +36,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1og2l5N2nhXVGtNNQpXn1Eo5UM4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,6 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -71,7 +76,8 @@
       <updated>1613694060706</updated>
       <workItem from="1613694061900" duration="6951000" />
       <workItem from="1613832541186" duration="5246000" />
-      <workItem from="1613856205223" duration="10178000" />
+      <workItem from="1613856205223" duration="12962000" />
+      <workItem from="1613878286836" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="Finished: Personas">
       <created>1613763523100</created>
@@ -108,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613842099969</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added: A lot">
+      <created>1613874324909</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613874324909</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +145,7 @@
     <MESSAGE value="Added: Logo" />
     <MESSAGE value="Added: Anchors to nav and offsets to anchors" />
     <MESSAGE value="Added: assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: assets" />
+    <MESSAGE value="Added: A lot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: A lot" />
   </component>
 </project>
