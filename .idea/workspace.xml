@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73e0c532-852b-42df-8caf-da8282e856f4" name="Default Changelist" comment="Added: A lot">
+    <list default="true" id="73e0c532-852b-42df-8caf-da8282e856f4" name="Default Changelist" comment="Added: final design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613874324909</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added: final design">
+      <created>1613879530399</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613879530399</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +153,7 @@
     <MESSAGE value="Added: Anchors to nav and offsets to anchors" />
     <MESSAGE value="Added: assets" />
     <MESSAGE value="Added: A lot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: A lot" />
+    <MESSAGE value="Added: final design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: final design" />
   </component>
 </project>
